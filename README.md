@@ -59,7 +59,7 @@ Translated analytical results into findings, insights, and recommendations (`ins
 ## Dashboard
 
 * 📄 **Payment Performance Dashboard (PDF):** [View Payment Performance Dashboard (PDF)](dashboard/PayFlow_-_Payment_Transactions_Dashboard.pdf)
-* 🔗 **Live Looker Studio Dashboard:** [View Dashboard](https://datastudio.google.com/reporting/07ce454b-7d4f-42ea-a3c8-71da7b8e829e)
+* 🔗 **Live Looker Studio Dashboard:** [View Dashboard](https://datastudio.google.com/u/0/reporting/69c88981-3d43-4803-857a-c59daf8bf10a/page/EbsCG)
 
 ## Key Insights
 
@@ -90,6 +90,12 @@ This project demonstrates the process of transforming raw payment data into busi
 - `dashboard/` — Dashboard preview and PDF (`PayFlow_-_Payment_Transactions_Dashboard.pdf`)
 - `insights/` — Findings, insights, and recommendations (`insights_and_recommendations.md`)
 
+---
+
+### 📚 Detailed Documentation
+
+To explore all project phases, SQL scripts, and detailed analysis notes interactively:
+👉 [View Notion Project Documentation](Notion_Sayfanin_Paylasim_Linki)
 ---
 
 ### 📚 Detailed Documentation
