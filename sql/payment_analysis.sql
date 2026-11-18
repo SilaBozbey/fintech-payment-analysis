@@ -91,3 +91,27 @@ SELECT
 FROM payment_transactions
 ORDER BY transaction_amount DESC
 LIMIT 10;
+
+-- Bonus Questions 1
+-- Başarılı işlemlerde iş yeri kategorilerinin işlem sayısı ve hacmi nasıl karşılaştırılıyor?
+SELECT merchant_category,
+        COUNT(*) AS successful_transaction_count,
+        SUM(transaction_amount) AS successful_transaction_volume
+FROM payment_transactions
+WHERE transaction_status = 'Successful'
+GROUP BY merchant_category
+ORDER BY successful_transaction_volume DESC;
+
+-- Bonus Questions 2
+-- Tutarı 1.000’den yüksek işlemler arasında en yüksek tutarlı beş işlem hangileridir?
+SELECT  transaction_id,
+        transaction_date,
+        customer_id,
+        merchant_category,
+        payment_method,
+        transaction_status,
+        transaction_amount
+FROM payment_transactions
+WHERE transaction_amount > 1000
+ORDER BY transaction_amount DESC
+LIMIT 5;
